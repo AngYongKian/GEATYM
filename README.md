@@ -199,7 +199,7 @@ Or use the Netlify CLI:
 ```bash
 npm install -g netlify-cli
 netlify deploy --prod --dir=dist
-```
+``` 
 
 ## 🤝 Contributing
 
