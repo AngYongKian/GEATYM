@@ -1,13 +1,15 @@
+const BASE_URL = import.meta.env.BASE_URL;
+
 export const ASSETS = {
   // Brand
-  logo: "/images/logo.png",
+  logo: `${BASE_URL}images/logo.png`,
 
   // Products
   products: {
-    tumbler: "/images/tumbler.png",
-    bag: "/images/bag.png",
-    grips: "/images/grips.png",
-    bear: "/images/bear.png",
+    tumbler: `${BASE_URL}images/tumbler.png`,
+    bag: `${BASE_URL}images/bag.png`,
+    grips: `${BASE_URL}images/grips.png`,
+    bear: `${BASE_URL}images/bear.png`,
   },
 
   // Existing Assets (Keep these or replace if desired)
